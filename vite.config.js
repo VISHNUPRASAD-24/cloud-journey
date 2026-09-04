@@ -20,30 +20,19 @@ export default defineConfig({
         scope: '/',
         display: 'standalone',
         orientation: 'portrait',
+        prefer_related_applications: false,
         icons: [
           {
-            src: 'icon-192x192.png',
+            src: '/icon-192x192.png',
             sizes: '192x192',
             type: 'image/png',
-            purpose: 'any'
+            purpose: 'any maskable'
           },
           {
-            src: 'icon-192x192.png',
-            sizes: '192x192',
-            type: 'image/png',
-            purpose: 'maskable'
-          },
-          {
-            src: 'icon-512x512.png',
+            src: '/icon-512x512.png',
             sizes: '512x512',
             type: 'image/png',
-            purpose: 'any'
-          },
-          {
-            src: 'icon-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'maskable'
+            purpose: 'any maskable'
           }
         ]
       }
