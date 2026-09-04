@@ -106,7 +106,7 @@ function App() {
     const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(logs));
     const dlAnchorElem = document.createElement('a');
     dlAnchorElem.setAttribute("href", dataStr);
-    dlAnchorElem.setAttribute("download", "cloud-journey-backup.json");
+    dlAnchorElem.setAttribute("download", "telos-backup.json");
     dlAnchorElem.click();
   };
 
@@ -140,7 +140,7 @@ function App() {
       {/* Header Navigation */}
       <header className="header">
         <div className="logo">
-          <Cloud size={28} /> Tracker
+          <Cloud size={28} /> Telos
         </div>
         
         <nav className="nav-tabs">

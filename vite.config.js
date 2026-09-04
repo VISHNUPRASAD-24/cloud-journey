@@ -11,8 +11,8 @@ export default defineConfig({
       includeAssets: ['icon-192x192.png', 'icon-512x512.png', 'favicon.svg'],
       manifest: {
         id: '/',
-        name: 'Cloud Journey',
-        short_name: 'Cloud Journey',
+        name: 'Telos',
+        short_name: 'Telos',
         description: 'Track your daily 6-month cloud career journey.',
         theme_color: '#0b0f19',
         background_color: '#0b0f19',
